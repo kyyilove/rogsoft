@@ -66,7 +66,7 @@ restart)
 		kill -9 $pid
 	fi
 	close_port
-	mod=`lsmod |grep tun`
+	mod=`lsmod |grep -w tun`
 	if [ -z "$mod" ];then
 		modprobe tun
 	fi

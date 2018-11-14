@@ -10,7 +10,8 @@ model=`nvram get productid`
 
 # CPU温度
 cpu_temperature_origin=`cat /sys/class/thermal/thermal_zone0/temp`
-cpu_temperature=`expr $cpu_temperature_origin / 1000`
+#cpu_temperature=`expr $cpu_temperature_origin / 1000`
+cpu_temperature=`awk 'BEGIN{printf "%.1f\n",('$cpu_temperature_origin'/'1000')}'`
 
 #网卡温度
 case "$model" in

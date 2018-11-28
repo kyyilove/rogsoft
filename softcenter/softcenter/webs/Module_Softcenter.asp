@@ -242,7 +242,7 @@ function appPostScript(moduleInfo, script) {
 	var data = {};
 	//currState.name = moduleInfo.name;
 	//TODO auto choose for home_url
-	data["softcenter_home_url"] = "https://rogsoft.ngrok.wang";
+	data["softcenter_home_url"] = "https://rogsoft.ddnsto.com";
 	data["softcenter_installing_todo"] = moduleInfo.name;
 	if (script == "ks_app_install.sh") {
 		data["softcenter_installing_tar_url"] = moduleInfo.tar_url;
@@ -533,9 +533,9 @@ function init(cb) {
 
 				// icon 规则:
 				// 如果已安装的插件,那图标必定在 /koolshare/res 目录, 通过 /res/icon-{name}.png 请求路径得到图标
-				// 如果是未安装的插件,则必定在 https://rogsoft.ngrok.wang/{name}/{name}/icon-{name}.png
+				// 如果是未安装的插件,则必定在 https://rogsoft.ddnsto.com/{name}/{name}/icon-{name}.png
 				// TODO 如果因为一些错误导致没有图标, 有可能显示一张默认图标吗?
-				item.icon = parseInt(item.install, 10) !== 0 ? ('/res/icon-' + item.name + '.png') : ('https://rogsoft.ngrok.wang' + new Array(3).join('/softcenter') + '/res/icon-' + item.name + '.png');
+				item.icon = parseInt(item.install, 10) !== 0 ? ('/res/icon-' + item.name + '.png') : ('https://rogsoft.ddnsto.com' + new Array(3).join('/softcenter') + '/res/icon-' + item.name + '.png');
 			});
 			return result;
 		};
@@ -576,7 +576,7 @@ $(function() {
 		cache: false,
 		success: function(response) {
 			db_softcenter_ = response.result[0];
-			db_softcenter_["softcenter_home_url"] = "https://rogsoft.ngrok.wang";
+			db_softcenter_["softcenter_home_url"] = "https://rogsoft.ddnsto.com";
 
 			if (!db_softcenter_["softcenter_version"]) {
 				db_softcenter_["softcenter_version"] = "0.0";
@@ -631,7 +631,7 @@ function menu_hook() {
 
 function notice_show() {
 	$.ajax({
-		url: 'https://rogsoft.ngrok.wang/softcenter/push_message.json.js',
+		url: 'https://rogsoft.ddnsto.com/softcenter/push_message.json.js',
 		type: 'GET',
 		dataType: 'jsonp',
 		success: function(res) {

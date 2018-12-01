@@ -89,15 +89,15 @@
             "version": "1.5"
         }, 
         {
-            "build_date": "2018-10-14_21:21:51", 
+            "build_date": "2018-12-01_12:11:41", 
             "changelog": "", 
             "description": "pppoe单线多拨，带宽提升神器！", 
             "home_url": "Module_mdial.asp", 
-            "md5": "8897c3ddb267a1896ef02dfcae6a4756", 
+            "md5": "b099dd53a7062d6a3181b4822bc8871b", 
             "name": "mdial", 
             "tar_url": "mdial/mdial.tar.gz", 
             "title": "单线多拨", 
-            "version": "1.1"
+            "version": "1.2"
         }, 
         {
             "build_date": "2018-11-14_19:14:40", 

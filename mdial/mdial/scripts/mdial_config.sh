@@ -80,11 +80,12 @@ start_dial(){
 
 		if [ "$?" == "0" ];then
 			# 生成路由表命令
-			local ip_addr=$(ifconfig|grep -A 1 ppp$ppp_nu|grep -Eo 'inet addr:([0-9]{1,3}[\.]){3}[0-9]{1,3}'|awk -F":" '{print $2}')
-			cmd="${cmd} nexthop via $ip_addr dev ppp$ppp_nu weight 1 "
+			local gw_addr=$(ifconfig|grep -A 1 ppp$ppp_nu|grep -Eo 'P-t-P:([0-9]{1,3}[\.]){3}[0-9]{1,3}'|awk -F":" '{print $2}')
+			cmd="${cmd} nexthop via $gw_addr dev ppp$ppp_nu weight 1 "
 			
 			# 添加iptables
 			echo_date "为ppp$ppp_nu配置防火墙..."
+			local ip_addr=$(ifconfig|grep -A 1 ppp$ppp_nu|grep -Eo 'inet addr:([0-9]{1,3}[\.]){3}[0-9]{1,3}'|awk -F":" '{print $2}')
 			local PPP_NU=$(iptables -t nat -L POSTROUTING -v -n --line-numbers|grep ppp|tail -n1|awk '{print $1}')||0
 			let PPP_NU+=1
 			iptables -t nat -I POSTROUTING $PPP_NU ! -s $ip_addr/32 -o ppp$ppp_nu -j MASQUERADE		
@@ -124,7 +125,7 @@ show_status(){
 }
 
 stop(){
-	local PIDS=$(ps|grep ppp|grep mdial|awk '{print $1}')
+	local PIDS=$(ps|grep ppp|grep -E "mdial|duobo"|awk '{print $1}')
 	if [ -n "$PIDS" ];then
 		echo_date "==========================================================="
 		echo_date "关闭多拨进程！"

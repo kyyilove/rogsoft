@@ -100,15 +100,15 @@
             "version": "1.2"
         }, 
         {
-            "build_date": "2018-11-14_19:14:40", 
+            "build_date": "2018-12-04_19:29:22", 
             "changelog": "", 
             "description": "一些小功能的插件", 
             "home_url": "Module_rog.asp", 
-            "md5": "43c406dc3ff22f86d6665ed11c14d605", 
+            "md5": "dc83ae8616e6910b9f8d064adc246c9f", 
             "name": "rog", 
             "tar_url": "rog/rog.tar.gz", 
             "title": "ROG工具箱", 
-            "version": "1.5"
+            "version": "1.6"
         }, 
         {
             "build_date": "2018-10-04_01:55:11", 

@@ -259,9 +259,7 @@ function menu_hook(title, tab) {
 											<div style="float:right; width:15px; height:25px;margin-top:-20px">
 												<img id="return_btn" onclick="reload_Soft_Center();" align="right" style="cursor:pointer;position:absolute;margin-left:-30px;margin-top:-25px;" title="返回软件中心" src="/images/backprev.png" onMouseOver="this.src='/images/backprevclick.png'" onMouseOut="this.src='/images/backprev.png'"></img>
 											</div>
-											<div style="margin-left:5px;margin-top:10px;margin-bottom:10px">
-												<img src="/images/New_ui/export/line_export.png">
-											</div>
+											<div style="margin:10px 0 10px 5px;" class="splitLine"></div>
 											<div class="SimpleNote">
 												<li>ROG 工具箱是软件中心的一个辅助工具，用以实现一些简单的功能的工具箱。</li>
 											</div>
@@ -324,9 +322,7 @@ function menu_hook(title, tab) {
 											<!--<div class="apply_gen">
 												<input class="button_gen" id="cmdBtn" onClick="save();" type="button" value="提交" />
 											</div>-->
-											<div style="margin-left:5px;margin-top:10px;margin-bottom:10px">
-												<img src="/images/New_ui/export/line_export.png">
-											</div>
+											<div style="margin:10px 0 10px 5px;" class="splitLine"></div>
 											<div class="SimpleNote">
 												<li>目前仅支持温度显示等一些简单功能，用以弥补官改固件没有温度显示的遗憾，后续功能有待开发。</li>
 											</div>

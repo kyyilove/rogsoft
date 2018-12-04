@@ -116,7 +116,7 @@ function reload_Soft_Center(){
 										<div>&nbsp;</div>
 										<div style="float:left;" class="formfonttitle">SS-SERVER</div>
 										<div style="float:right; width:15px; height:25px;margin-top:10px"><img id="return_btn" onclick="reload_Soft_Center();" align="right" style="cursor:pointer;position:absolute;margin-left:-30px;margin-top:-25px;" title="返回软件中心" src="/images/backprev.png" onMouseOver="this.src='/images/backprevclick.png'" onMouseOut="this.src='/images/backprev.png'"></div>
-										<div style="margin-left:5px;margin-top:10px;margin-bottom:10px"><img src="/images/New_ui/export/line_export.png"></div>
+										<div style="margin:30px 0 10px 5px;" class="splitLine"></div>
 										<div class="formfontdesc" id="cmdDesc">开启ss-server后，就可以类似VPN一样，将你的网络共享到公网，让你和你的小伙伴远程连接。</div>										
 										<table style="margin:10px 0px 0px 0px;" width="100%" border="1" align="center" cellpadding="4" cellspacing="0" bordercolor="#6b8fa3" class="FormTable">
 											<thead>
@@ -238,7 +238,7 @@ function reload_Soft_Center(){
 										<div class="apply_gen">
 											<button id="cmdBtn" class="button_gen" onclick="save()">提交</button>
 										</div>
-										<div style="margin-left:5px;margin-top:10px;margin-bottom:10px"><img src="/images/New_ui/export/line_export.png"></div>
+										<div style="margin:10px 0 10px 5px;" class="splitLine"></div>
 									</td>
 								</tr>
 							</table>

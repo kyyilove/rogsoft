@@ -133,15 +133,15 @@
             "version": "1.4"
         }, 
         {
-            "build_date": "2017-11-29_19:43:32", 
+            "build_date": "2018-12-04_21:55:46", 
             "changelog": "", 
             "description": "中文SSID，装逼利器！", 
             "home_url": "Module_ssid.asp", 
-            "md5": "6431bdb2e7a55ce439a7ad79cfe04346", 
+            "md5": "8da4cf054b3b64fff6cd128095715ee3", 
             "name": "ssid", 
             "tar_url": "ssid/ssid.tar.gz", 
             "title": "中文SSID", 
-            "version": "1.2"
+            "version": "1.3"
         }, 
         {
             "build_date": "2018-12-04_21:12:34", 

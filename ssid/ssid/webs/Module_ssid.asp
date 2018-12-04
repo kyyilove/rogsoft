@@ -249,7 +249,7 @@ location.href = "/Module_Softcenter.asp";
 										<div>&nbsp;</div>
 										<div style="float:left;" class="formfonttitle">中文SSID</div>
 										<div style="float:right; width:15px; height:25px;margin-top:10px"><img id="return_btn" onclick="reload_Soft_Center();" align="right" style="cursor:pointer;position:absolute;margin-left:-30px;margin-top:-25px;" title="返回软件中心" src="/images/backprev.png" onMouseOver="this.src='/images/backprevclick.png'" onMouseOut="this.src='/images/backprev.png'"></img></div>
-										<div style="margin-left:5px;margin-top:10px;margin-bottom:10px"><img src="/images/New_ui/export/line_export.png"></div>
+										<div style="margin:30px 0 10px 5px;" class="splitLine"></div>
 										<div id="NoteBox" >
 											<li>在此页面，你可以修改你的无线SSID名为中文； </li>
 											<li>中文SSID可能会导致某些设备无法正常连接;</li>
@@ -277,7 +277,7 @@ location.href = "/Module_Softcenter.asp";
 										<div class="apply_gen">
                                         	<span><input class="button_gen" id="cmdBtn" onclick="onSubmitCtrl();" type="button" value="开始装逼"/></span>
 										</div>
-										<div style="margin-left:5px;margin-top:10px;margin-bottom:10px"><img src="/images/New_ui/export/line_export.png"></div>
+										<div style="margin:10px 0 10px 5px;" class="splitLine"></div>
 										<div class="KoolshareBottom">
 											<br/>论坛技术支持： <a href="http://www.koolshare.cn" target="_blank"> <i><u>www.koolshare.cn</u></i> </a> <br/>
 											后台技术支持： <i>Xiaobao</i> <br/>

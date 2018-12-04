@@ -522,7 +522,7 @@ function reload_Soft_Center(){
 										<div>&nbsp;</div>
                 						<div id="fastd1ck_title" style="float:left;" class="formfonttitle" style="padding-top: 12px">迅雷快鸟</div>
 										<div style="float:right; width:15px; height:25px;margin-top:10px"><img id="return_btn" onclick="reload_Soft_Center();" align="right" style="cursor:pointer;position:absolute;margin-left:-30px;margin-top:-25px;" title="返回软件中心" src="/images/backprev.png" onMouseOver="this.src='/images/backprevclick.png'" onMouseOut="this.src='/images/backprev.png'"></img></div>
-										<div style="margin-left:5px;margin-top:10px;margin-bottom:10px"><img src="/images/New_ui/export/line_export.png"></div>
+										<div style="margin:30px 0 10px 5px;" class="splitLine"></div>
 										<div class="SimpleNote" id="head_illustrate"><i></i><em>迅雷快鸟，上网必备神器，宽带平均提升5倍，最高可达500M。</em></div>
 										<div id="fastd1ck_switch" style="margin:0px 0px 0px 0px;">
                 							<table style="margin:-1px 0px 0px 0px;" width="100%" border="1" align="center" cellpadding="4" cellspacing="0" bordercolor="#6b8fa3" class="FormTable">

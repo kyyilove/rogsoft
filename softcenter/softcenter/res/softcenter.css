@@ -59,3 +59,12 @@
 .IE8HACK{
 	display: none \9;
 }
+.splitLine{
+	background: #32393B;
+	background: -webkit-linear-gradient(#32393B 0%, #32393B 20%, #667881 80%, #667881 100%);
+	background: -o-linear-gradient(#32393B 0%, #32393B 20%, #667881 80%, #667881 100%);
+	background: linear-gradient(#32393B 0%, #32393B 20%, #667881 80%,#667881 100%);
+	height: 2px;
+	width: 740px;
+	margin: 1px 0;
+}

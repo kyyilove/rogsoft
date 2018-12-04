@@ -148,7 +148,7 @@ function get_log(s) {
 										<div>&nbsp;</div>
 										<div style="float:left;" class="formfonttitle">软件中心 - 插件离线安装</div>
 										<div style="float:right; width:15px; height:25px;margin-top:10px"><img id="return_btn" onclick="reload_Soft_Center();" align="right" style="cursor:pointer;position:absolute;margin-left:-30px;margin-top:-25px;" title="返回软件中心" src="/images/backprev.png" onMouseOver="this.src='/images/backprevclick.png'" onMouseOut="this.src='/images/backprev.png'"></img></div>
-										<div style="margin-left:5px;margin-top:10px;margin-bottom:10px"><img src="/images/New_ui/export/line_export.png"></div>
+										<div style="margin:30px 0 10px 5px;" class="splitLine"></div>
 										<div class="formfontdesc" style="padding-top:5px;margin-top:0px;float: left;" id="cmdDesc"></div>
 										<div style="padding-top:5px;margin-top:0px;float: left;" id="NoteBox" >
 											<li>通过本页面，你可以上传插件的离线安装包来安装插件; </li>

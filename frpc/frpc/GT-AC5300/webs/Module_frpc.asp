@@ -795,7 +795,7 @@ function openssHint(itemNum) {
                                     <div>&nbsp;</div>
                                     <div style="float:left;" class="formfonttitle">软件中心 - Frpc内网穿透</div>
                                     <div style="float:right; width:15px; height:25px;margin-top:10px"><img id="return_btn" onclick="reload_Soft_Center();" align="right" style="cursor:pointer;position:absolute;margin-left:-30px;margin-top:-25px;" title="返回软件中心" src="/images/backprev.png" onMouseOver="this.src='/images/backprevclick.png'" onMouseOut="this.src='/images/backprev.png'"></img></div>
-                                    <div style="margin-left:5px;margin-top:10px;margin-bottom:10px"><img src="/images/New_ui/export/line_export.png"/></div>
+                                    <div style="margin:30px 0 10px 5px;" class="splitLine"></div>
                                     <div class="formfontdesc"><i>* 为了Frpc稳定运行，请开启虚拟内存功能！！！</i>&nbsp;&nbsp;&nbsp;&nbsp;【<a href="http://koolshare.cn/thread-65379-1-1.html"  target="_blank"><i>服务器搭建教程</i></a>】</div>
                                     <div id="frpc_switch_show">
                                     <table width="100%" border="1" align="center" cellpadding="4" cellspacing="0" bordercolor="#6b8fa3" class="FormTable">
@@ -1077,9 +1077,7 @@ function openssHint(itemNum) {
                                             </tr>
                                     </table>
                                     </div>
-                                    <div style="margin-left:5px;margin-top:20px;margin-bottom:10px">
-                                        <img src="/images/New_ui/export/line_export.png">
-                                    </div>
+                                    <div style="margin:30px 0 10px 5px;" class="splitLine"></div>
                                     <div class="formbottomdesc" id="cmdDesc">
                                         <i>* 注意事项：</i><br>
                                         <i>1. 请使用虚拟内存！请使用虚拟内存！请使用虚拟内存！重要的事说三遍</i><br>

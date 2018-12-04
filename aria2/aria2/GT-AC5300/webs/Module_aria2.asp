@@ -1417,9 +1417,7 @@
 										<div style="float:right; width:15px; height:25px;margin-top:10px">
 											<img id="return_btn" onclick="reload_Soft_Center();" align="right" style="cursor:pointer;position:absolute;margin-left:-30px;margin-top:-25px;" title="返回软件中心" src="/images/backprev.png" onMouseOver="this.src='/images/backprevclick.png'" onMouseOut="this.src='/images/backprev.png'"></img>
 										</div>
-										<div style="margin-left:5px;margin-top:10px;margin-bottom:10px">
-											<img src="/images/New_ui/export/line_export.png">
-										</div>
+										<div style="margin:30px 0 10px 5px;" class="splitLine"></div>
 										<div class="SimpleNote" id="head_illustrate"><em>Aria2是一个轻量级的跨平台下载工具，支持HTTP/HTTPS、FTP、SFTP、BitTorrent等协议，支持多线程下载，占用cpu、内存资源少。</em></div>
 										<div class="formfontdesc" id="cmdDesc"></div>
 										<div id="aria2_switch" style="margin:-1px 0px 0px 0px;">

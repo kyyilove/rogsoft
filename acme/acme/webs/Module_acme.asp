@@ -407,9 +407,7 @@ function menu_hook(title, tab) {
 											<div style="float:right; width:15px; height:25px;margin-top:-20px">
 												<img id="return_btn" onclick="reload_Soft_Center();" align="right" style="cursor:pointer;position:absolute;margin-left:-30px;margin-top:-25px;" title="返回软件中心" src="/images/backprev.png" onMouseOver="this.src='/images/backprevclick.png'" onMouseOut="this.src='/images/backprev.png'"></img>
 											</div>
-											<div style="margin-left:5px;margin-top:10px;margin-bottom:10px">
-												<img src="/images/New_ui/export/line_export.png">
-											</div>
+											<div style="margin:30px 0 10px 5px;" class="splitLine"></div>
 											<div class="SimpleNote">
 												<li>Let's Encrypt是2015年三季度成立的数字证书认证机构，旨在推广互联网无所不在的加密连接，为安全网站提供免费的SSL/TLS证书。
 												<li>本插件使用acme.sh，通过dns_api申请ssl证书，目前支持aliyun、Dnspod、CloudXNS、CloudFlare、Godaddy。 <a type="button" style="cursor:pointer" href="https://github.com/sadoneli/merlin380-acme/blob/master/Changelog.txt" target="_blank"><em>【<u>插件更新日志</u>】</em></a></li>
@@ -560,9 +558,7 @@ function menu_hook(title, tab) {
 											<div class="apply_gen">
 												<input class="button_gen" id="cmdBtn" onClick="save();" type="button" value="提交" />
 											</div>
-											<div style="margin-left:5px;margin-top:10px;margin-bottom:10px">
-												<img src="/images/New_ui/export/line_export.png">
-											</div>
+											<div style="margin:30px 0 10px 5px;" class="splitLine"></div>
 											<div class="SimpleNote">
 												<li>本插件仅支持koolshare RT-AC86U梅林改版固件、GT-AC5300官改固件。</li>
 												<li>Let's Encrypt的免费证书在2018年3月已经支持泛域名*解析，要使用泛解析请在子域名处填写 *。</li>

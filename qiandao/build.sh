@@ -1,7 +1,7 @@
 #!/bin/sh
 
 MODULE="qiandao"
-VERSION="1.4"
+VERSION="1.5"
 TITLE="自动签到"
 DESCRIPTION="自动签到"
 HOME_URL="Module_qiandao.asp"

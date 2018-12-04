@@ -292,9 +292,7 @@ function menu_hook(title, tab) {
 											<div style="float:right; width:15px; height:25px;margin-top:-20px">
 												<img id="return_btn" onclick="reload_Soft_Center();" align="right" style="cursor:pointer;position:absolute;margin-left:-30px;margin-top:-25px;" title="返回软件中心" src="/images/backprev.png" onMouseOver="this.src='/images/backprevclick.png'" onMouseOut="this.src='/images/backprev.png'"></img>
 											</div>
-											<div style="margin-left:5px;margin-top:10px;margin-bottom:10px">
-												<img src="/images/New_ui/export/line_export.png">
-											</div>
+											<div style="margin:10px 0 10px 5px;" class="splitLine"></div>
 											<div class="SimpleNote">
 												<li>本插件实现帮你实现自动签到，<a href="http://koolshare.cn/thread-127783-1-1.html"><em><u>签到程序</u></em></a>来自Carseason。<a type="button" style="cursor:pointer" href="https://github.com/sadoneli/merlin380-qiandao/blob/master/Changelog.txt" target="_blank"><em>【<u>插件更新日志</u>】</em></a>
 											</div>
@@ -450,9 +448,7 @@ function menu_hook(title, tab) {
 												<input class="button_gen" id="cmdBtn" onClick="save(1);" type="button" value="仅保存设置" />
 												<input class="button_gen" id="cmdBtn" onClick="save(2);" type="button" value="保存并立即签到" />
 											</div>
-											<div style="margin-left:5px;margin-top:10px;margin-bottom:10px">
-												<img src="/images/New_ui/export/line_export.png">
-											</div>
+											<div style="margin:10px 0 10px 5px;" class="splitLine"></div>
 											<div class="SimpleNote">
 												<li>请勿泄露你的cookie和账号密码等信息！</li>
 											</div>

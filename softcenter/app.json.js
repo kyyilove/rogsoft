@@ -188,15 +188,15 @@
             "version": "1.9"
         }, 
         {
-            "build_date": "2018-10-27_16:54:45", 
+            "build_date": "2018-12-04_21:22:59", 
             "changelog": "", 
             "description": "ddnspod", 
             "home_url": "Module_ddnspod.asp", 
-            "md5": "97103ba8784c704346e1c74e88ee4c08", 
+            "md5": "74e9c82970c3679acfef5352607721d1", 
             "name": "ddnspod", 
             "tar_url": "ddnspod/ddnspod.tar.gz", 
             "title": "ddnspod", 
-            "version": "1.2"
+            "version": "1.3"
         }, 
         {
             "build_date": "2018-12-04_19:39:35", 

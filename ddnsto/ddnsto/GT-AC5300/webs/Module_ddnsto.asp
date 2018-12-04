@@ -270,9 +270,7 @@ function reload_Soft_Center() {
 										<div style="float:right; width:15px; height:25px;margin-top:-20px">
 											<img id="return_btn" onclick="reload_Soft_Center();" align="right" style="cursor:pointer;position:absolute;margin-left:-30px;margin-top:-25px;" title="返回软件中心" src="/images/backprev.png" onMouseOver="this.src='/images/backprevclick.png'" onMouseOut="this.src='/images/backprev.png'"></img>
 										</div>
-										<div style="margin-left:5px;margin-top:10px;margin-bottom:10px">
-											<img src="/images/New_ui/export/line_export.png">
-										</div>
+										<div style="margin:30px 0 10px 5px;" class="splitLine"></div>
 										<div class="SimpleNote">
 											<li>ddnsto远程控制是koolshare小宝开发的，支持http2的远程穿透控制软件。</li>
 											<li><i>注意：</i>因验证方式改变，原有Token弃用，插件1.6及其以上版本需要重新登录控制台获取Token并重新设置。</li>
@@ -325,9 +323,7 @@ function reload_Soft_Center() {
 										<div class="apply_gen">
 											<input class="button_gen" id="cmdBtn" onClick="onSubmitCtrl(this, ' Refresh ')" type="button" value="提交" />
 										</div>
-										<div style="margin-left:5px;margin-top:10px;margin-bottom:10px">
-											<img src="/images/New_ui/export/line_export.png">
-										</div>
+										<div style="margin:30px 0 10px 5px;" class="splitLine"></div>
 										<div id="NoteBox" style="display:none">
 											<li>ddnsto远程控制目前处于测试阶段，仅提供给koolshare固件用户使用，提供路由界面的穿透，请勿用于反动、不健康等用途；</li>
 											<li>穿透教程：<a id="gfw_number" href="http://koolshare.cn/thread-116500-1-1.html" target="_blank"><i>DDNSTO远程控制使用教程</i></a></li>
@@ -345,5 +341,4 @@ function reload_Soft_Center() {
 	<div id="footer"></div>
 </body>
 </html>
-
 

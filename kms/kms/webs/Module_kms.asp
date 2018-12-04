@@ -110,9 +110,7 @@ function menu_hook(title, tab) {
 											<div style="float:right; width:15px; height:25px;margin-top:10px">
 												<img id="return_btn" onclick="reload_Soft_Center();" align="right" style="cursor:pointer;position:absolute;margin-left:-30px;margin-top:-25px;" title="返回软件中心" src="/images/backprev.png" onMouseOver="this.src='/images/backprevclick.png'" onMouseOut="this.src='/images/backprev.png'"></img>
 											</div>
-											<div style="margin-left:5px;margin-top:10px;margin-bottom:10px">
-												<img src="/images/New_ui/export/line_export.png">
-											</div>
+											<div style="margin:30px 0 10px 5px;" class="splitLine"></div>
 											<div class="formfontdesc" id="cmdDesc">该工具用于激活office全家桶和windows操作系统。</div>
 											<div class="formfontdesc" id="cmdDesc"></div>
 											<table style="margin:10px 0px 0px 0px;" width="100%" border="1" align="center" cellpadding="4" cellspacing="0" bordercolor="#6b8fa3" class="FormTable" id="kms_table">

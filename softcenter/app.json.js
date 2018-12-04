@@ -122,15 +122,15 @@
             "version": "2.1"
         }, 
         {
-            "build_date": "2018-10-02_21:31:12", 
+            "build_date": "2018-12-04_21:14:15", 
             "changelog": "", 
             "description": "aliddns", 
             "home_url": "Module_aliddns.asp", 
-            "md5": "6802f0dcf198f97b2da0041183702dd1", 
+            "md5": "4f6df0abb78e756c68010f5297ccc0d3", 
             "name": "aliddns", 
             "tar_url": "aliddns/aliddns.tar.gz", 
             "title": "阿里DDNS", 
-            "version": "1.3"
+            "version": "1.4"
         }, 
         {
             "build_date": "2017-11-29_19:43:32", 

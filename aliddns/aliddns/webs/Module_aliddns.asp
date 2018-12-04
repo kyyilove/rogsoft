@@ -191,7 +191,7 @@ function reload_Soft_Center(){
 										<div>&nbsp;</div>
                 						<div style="float:left;" class="formfonttitle" style="padding-top: 12px">Aliddns - 设置</div>
 										<div style="float:right; width:15px; height:25px;margin-top:10px"><img id="return_btn" onclick="reload_Soft_Center();" align="right" style="cursor:pointer;position:absolute;margin-left:-30px;margin-top:-25px;" title="返回软件中心" src="/images/backprev.png" onMouseOver="this.src='/images/backprevclick.png'" onMouseOut="this.src='/images/backprev.png'"></img></div>
-										<div style="margin-left:5px;margin-top:10px;margin-bottom:10px"><img src="/images/New_ui/export/line_export.png"></div>
+										<div style="margin:30px 0 10px 5px;" class="splitLine"></div>
 										<div class="SimpleNote" id="head_illustrate"><i></i><em>Aliddns</em>是一款基于阿里云解析的私人ddns解决方案。<a href='http://koolshare.cn/thread-64703-1-1.html' target='_blank'><i>&nbsp;&nbsp;<u>点击查看插件详情</u></i></a></div>
                 						<table style="margin:20px 0px 0px 0px;" width="100%" border="1" align="center" cellpadding="4" cellspacing="0" bordercolor="#6b8fa3" class="FormTable">
 											<thead>
@@ -260,7 +260,7 @@ function reload_Soft_Center(){
                 						        <td><input id="aliddns_ttl" style="width: 4.5em" class="input_ss_table" value="600">s (1~86400)</td>
                 						    </tr>
                 						</table>
-										<div style="margin-left:5px;margin-top:10px;margin-bottom:10px"><img src="/images/New_ui/export/line_export.png"/></div>
+										<div style="margin:30px 0 10px 5px;" class="splitLine"></div>
 										<div class="apply_gen">
 											<button id="cmdBtn" class="button_gen" onclick="save()">提交</button>
 										</div>

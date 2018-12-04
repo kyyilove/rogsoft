@@ -613,7 +613,7 @@ function cal_panel_block() {
                                         <div style="float:right; width:15px; height:25px;margin-top:-20px">
                                             <img id="return_btn" onclick="reload_Soft_Center();" align="right" style="cursor:pointer;position:absolute;margin-left:-30px;margin-top:-25px;" title="返回软件中心" src="/images/backprev.png" onMouseOver="this.src='/images/backprevclick.png'" onMouseOut="this.src='/images/backprev.png'"></img>
                                         </div>
-                                        <div style="margin-left:5px;margin-top:10px;margin-bottom:10px"><img src="/images/New_ui/export/line_export.png"></div>
+                                        <div style="margin:30px 0 10px 5px;" class="splitLine"></div>
                                         <div class="SimpleNote">
                                             <h3>EasyExplorer 跨设备文件同步+DLNA流媒体!</h3>
                                             <li><i>注意：</i>请保护好你的ddnsto或EasyExplorer的Token，如果被其他人获知，那么下一个摄影大师可能就是你！！！</li>
@@ -669,7 +669,7 @@ function cal_panel_block() {
                                                 </td>
                                             </tr>
                                         </table>
-                                        <div style="margin-left:5px;margin-top:10px;margin-bottom:10px"><img src="/images/New_ui/export/line_export.png"></div>
+                                        <div style="margin:30px 0 10px 5px;" class="splitLine"></div>
                                         <div id="warning" style="font-size:14px;margin:20px auto;"></div>
                                         <div class="apply_gen">
                                             <input class="button_gen" id="cmdBtn" onClick="save()" type="button" value="提交" />

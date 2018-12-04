@@ -1,15 +1,15 @@
 {
     "apps": [
         {
-            "build_date": "2018-12-04_21:52:28", 
+            "build_date": "2018-12-04_21:54:15", 
             "changelog": "", 
             "description": "从路由器推送状态及通知的工具", 
             "home_url": "Module_serverchan.asp", 
-            "md5": "50ccc18787743e4f7a77b2d51f425e32", 
+            "md5": "0aa520e59ea3cdfd2049ad5f4b49d478", 
             "name": "serverchan", 
             "tar_url": "serverchan/serverchan.tar.gz", 
             "title": "serverChan微信推送", 
-            "version": "0.3"
+            "version": "0.4"
         }, 
         {
             "build_date": "2018-12-04_21:44:25", 

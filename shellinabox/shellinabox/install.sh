@@ -12,4 +12,5 @@ chmod 755 /koolshare/scripts/*
 # open in new window
 dbus set softcenter_module_shellinabox_install="1"
 dbus set softcenter_module_shellinabox_target="target=_blank"
+dbus remove shellinabox_enable
 rm -rf /tmp/shellinabox*

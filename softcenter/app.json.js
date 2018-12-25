@@ -133,17 +133,6 @@
             "version": "1.4"
         }, 
         {
-            "build_date": "2018-12-04_21:55:46", 
-            "changelog": "", 
-            "description": "中文SSID，装逼利器！", 
-            "home_url": "Module_ssid.asp", 
-            "md5": "8da4cf054b3b64fff6cd128095715ee3", 
-            "name": "ssid", 
-            "tar_url": "ssid/ssid.tar.gz", 
-            "title": "中文SSID", 
-            "version": "1.3"
-        }, 
-        {
             "build_date": "2018-12-04_21:12:34", 
             "changelog": "", 
             "description": "自动部署SSL证书", 
@@ -211,7 +200,7 @@
         }
     ], 
     "home_url": "https://raw.githubusercontent.com/koolshare/koolshare.github.io/master", 
-    "md5": "bf3b91c70884875b740c3ddb8b857a6f", 
+    "md5": "94f73fef4436dd7af5d22e8f91ce5e5a", 
     "tar_url": "softcenter/softcenter.tar.gz", 
     "version": "1.3.8"
 }

@@ -70,3 +70,40 @@
 	margin: 1px 0;
 }
 
+[bgcolor="#4D595D"]{
+	background: rgba(0, 0, 0, 0.5);
+}
+.submenuBlock{
+	width:735px;
+	margin-top:-140px;
+	margin-bottom: -3px;
+}
+.tab{
+	cursor:pointer;
+	background: rgb(83,4,18);
+	color: White;
+	float: left;
+	height: 30px;
+	margin-left: -3px;
+	margin-right: 2px;
+	text-align:center;
+	text-decoration: none;
+	font-family: Verdana;
+	font-size: 12px;
+	border-radius: 5px 5px 0px 0px;
+}
+.tabClicked{
+	cursor:pointer;
+	background: rgba(0, 0, 0, 0.5);
+	color: White;
+	float: left;
+	height: 30px;
+	margin-left: -3px;
+	margin-right: 2px;
+	text-align:center;
+	text-decoration: none;
+	font-family: Verdana;
+	font-size: 12px;
+	border-radius: 5px 5px 0px 0px;
+}
+

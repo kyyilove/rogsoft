@@ -144,7 +144,7 @@ function get_log(s) {
 						<td align="left" valign="top">
 							<table width="760px" border="0" cellpadding="5" cellspacing="0" bordercolor="#6b8fa3" class="FormTitle" id="FormTitle">
 								<tr>
-									<td colspan="3" valign="top">
+									<td bgcolor="#4D595D" colspan="3" valign="top">
 										<div>&nbsp;</div>
 										<div style="float:left;" class="formfonttitle">软件中心 - 插件离线安装</div>
 										<div style="float:right; width:15px; height:25px;margin-top:10px"><img id="return_btn" onclick="reload_Soft_Center();" align="right" style="cursor:pointer;position:absolute;margin-left:-30px;margin-top:-25px;" title="返回软件中心" src="/images/backprev.png" onMouseOver="this.src='/images/backprevclick.png'" onMouseOut="this.src='/images/backprev.png'"></img></div>

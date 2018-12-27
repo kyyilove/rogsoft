@@ -135,10 +135,16 @@ input[type=button]:focus {
 	color: #fff;
 	padding: 10px 20px;
 	border-radius: 5px 5px 0px 0px;
+	border: 1px solid #680516;
 }
 .active {
 	background: #91071f;
 	border: 1px solid #91071f;
+	background: linear-gradient(to bottom, #680516  0%, #680516 100%); /* W3C */
+	border: 1px solid #680516;
+}
+#IconContainer {
+	border:1px solid #680516;
 }
 .install-status-1 .uninstall-btn {
 	display: block;
@@ -662,7 +668,7 @@ function notice_show() {
 	            <div id="tabMenu" class="submenuBlock"></div>
 	                <table width="98%" border="0" align="left" cellpadding="0" cellspacing="0">
 	                    <tr>
-	                        <td align="left" valign="top">
+	                        <td bgcolor="#4D595D" align="left" valign="top">
 	                            <div>
 	                                <table width="760px" border="0" cellpadding="5" cellspacing="0" bordercolor="#6b8fa3" class="FormTitle" id="FormTitle">
 	                                    <tr>
@@ -728,9 +734,8 @@ function notice_show() {
 	                                                            <input class="show-uninstall-btn" type="button" value="未安装"/>
 	                                                        </td>
 	                                                    </tr>
-	
-	                                                    <tr width="235px">
-	                                                        <td colspan="4" id="IconContainer" style="border: 1px solid #91071f;">
+	                                                    <tr width="100%">
+	                                                        <td colspan="4" id="IconContainer">
 	                                                            <div style="text-align:center; line-height: 4em;">更新中...</div>
 	                                                        </td>
 	                                                    </tr>

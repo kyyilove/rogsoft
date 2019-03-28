@@ -30,6 +30,9 @@ softcenter_install() {
 		fi
 		cp -rf /tmp/softcenter/init.d/* /koolshare/init.d/
 		cp -rf /tmp/softcenter/bin/* /koolshare/bin/
+		if [ "`nvram get model`" == "RT-AX88U" ];then
+			cp -rf /tmp/softcenter/axbin/* /koolshare/bin/
+		fi
 		cp -rf /tmp/softcenter/perp /koolshare/
 		cp -rf /tmp/softcenter/scripts /koolshare/
 
@@ -39,8 +42,13 @@ softcenter_install() {
 		[ ! -L "/jffs/.asusrouter" ] && ln -sf /koolshare/bin/kscore.sh /jffs/.asusrouter
 		[ -L "/koolshare/bin/base64" ] && rm -rf /koolshare/bin/base64
 		if [ "`nvram get model`" == "GT-AC5300" ] || [ -n "`nvram get extendno | grep koolshare`" -a "`nvram get productid`" == "RT-AC86U" ];then
+			# for offcial mod, RT-AC86U, GT-AC5300
 			[ ! -L "/jffs/etc/profile" ] && ln -sf /koolshare/scripts/base.sh /jffs/etc/profile
+		elif [ "`nvram get model`" == "RT-AX88U" ];then
+			# for Merlin mod, RT-AX88U
+			[ ! -L "/jffs/configs/profile.add" ] && ln -sf /koolshare/scripts/base.sh /jffs/configs/profile.add
 		else
+			# for Merlin mod, RT-AC86U
 			[ ! -L "/jffs/configs/profile" ] && ln -sf /koolshare/scripts/base.sh /jffs/configs/profile
 		fi
 		chmod 755 /koolshare/bin/*

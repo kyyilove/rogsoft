@@ -44,12 +44,9 @@ softcenter_install() {
 		if [ "`nvram get model`" == "GT-AC5300" ] || [ -n "`nvram get extendno | grep koolshare`" -a "`nvram get productid`" == "RT-AC86U" ];then
 			# for offcial mod, RT-AC86U, GT-AC5300
 			[ ! -L "/jffs/etc/profile" ] && ln -sf /koolshare/scripts/base.sh /jffs/etc/profile
-		elif [ "`nvram get model`" == "RT-AX88U" ];then
-			# for Merlin mod, RT-AX88U
+		else [ "`nvram get model`" == "RT-AX88U" ];then
+			# for Merlin mod, RT-AX88U, RT-AC86U
 			[ ! -L "/jffs/configs/profile.add" ] && ln -sf /koolshare/scripts/base.sh /jffs/configs/profile.add
-		else
-			# for Merlin mod, RT-AC86U
-			[ ! -L "/jffs/configs/profile" ] && ln -sf /koolshare/scripts/base.sh /jffs/configs/profile
 		fi
 		chmod 755 /koolshare/bin/*
 		chmod 755 /koolshare/init.d/*

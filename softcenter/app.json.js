@@ -45,6 +45,17 @@
             "version": "1.5"
         }, 
         {
+            "build_date": "2019-04-11_23:25:25", 
+            "changelog": "", 
+            "description": "CloudFlare DDNS", 
+            "home_url": "Module_cfddns.asp", 
+            "md5": "331a6c9c3b6b1328ceeef8aaff286b32", 
+            "name": "cfddns", 
+            "tar_url": "cfddns/cfddns.tar.gz", 
+            "title": "CloudFlare DDNS", 
+            "version": "1.0"
+        }, 
+        {
             "build_date": "2018-12-09_22:15:34", 
             "changelog": "", 
             "description": "EasyExplorer 跨设备文件同步+DLNA流媒体", 
@@ -200,7 +211,7 @@
         }
     ], 
     "home_url": "https://raw.githubusercontent.com/koolshare/koolshare.github.io/master", 
-    "md5": "8a01d52a459e048799e61b00799ec9b3", 
+    "md5": "7f0c2d5ea5ed06d56f7566920450230c", 
     "tar_url": "softcenter/softcenter.tar.gz", 
     "version": "1.4.1"
 }

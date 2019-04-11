@@ -45,11 +45,11 @@
             "version": "1.5"
         }, 
         {
-            "build_date": "2019-04-11_23:25:25", 
+            "build_date": "2019-04-11_23:31:41", 
             "changelog": "", 
             "description": "CloudFlare DDNS", 
             "home_url": "Module_cfddns.asp", 
-            "md5": "331a6c9c3b6b1328ceeef8aaff286b32", 
+            "md5": "668ecdfcde818b4b4bfcecd450ad49a8", 
             "name": "cfddns", 
             "tar_url": "cfddns/cfddns.tar.gz", 
             "title": "CloudFlare DDNS", 

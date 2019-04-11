@@ -193,6 +193,9 @@ function save(){
 			console.log(response);
 			if (response.result == id){
 				get_log();
+				if(E("cfddns_enable").checked == false){
+					setTimeout("refreshpage();", 1000);
+				}
 			}
 		}
 	});

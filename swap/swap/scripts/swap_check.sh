@@ -9,8 +9,6 @@ echo "" > /tmp/upload/swap_log.txt
 
 parts=`dbus list swap_check_partName|cut -d "=" -f2`
 
-
-
 if [ -z "$parts" ];then
 	http_response "没有找到符合格式要求的磁盘！"
 	dbus remove swap_auto_mount

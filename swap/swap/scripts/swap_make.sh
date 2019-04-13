@@ -18,7 +18,7 @@ make_swap(){
 		echo_date "创建完毕并成功挂载！"
 		dbus set swap_auto_mount=/tmp/mnt/$swap_make_part_partname/swapfile
 	else
-		echo_date "创建完毕，但是挂载失败！本插件已经不知道怎么办了，请检查下你的U盘！！"
+		echo_date "创建完毕，但是挂载失败！请刷新本页后重新尝试创建虚拟内存！！"
 		rm -rf /tmp/mnt/$swap_make_part_partname/swapfile
 		dbus remove swap_auto_mount
 		echo XU6J03M6
@@ -62,7 +62,8 @@ start_make(){
 	else
 		echo_date "你要创建虚拟内存的磁盘分区是$swap_make_part_format格式，不符合要求，将尝试转换格式！"
 		echo_date "先卸载磁盘/tmp/mnt/$swap_make_part_partname"
-		umount /tmp/mnt/$swap_make_part_partname
+		#umount /tmp/mnt/$swap_make_part_partname
+		ejusb $swap_diskorder
 		if [ "$?" == "0" ];then
 			echo_date "卸载成功，尝试将磁盘格式化为ext3格式，磁盘内的数据将会全部丢失！"
 			mkfs.ext3 /dev/$swap_make_part_mount
@@ -111,4 +112,3 @@ case $2 in
 	start_del >> /tmp/upload/swap_log.txt
 	;;
 esac
-

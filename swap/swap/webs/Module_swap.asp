@@ -66,10 +66,11 @@ function get_disks(){
 		var html = '';
 		html += '<thead>'
 		html += '<tr>'
-		html += '<td colspan="7">磁盘列表</td>'
+		html += '<td colspan="8">磁盘列表</td>'
 		html += '</tr>'
 		html += '</thead>'	
 		html += '<tr>'
+		html += '<th style="width:auto">端口</th>'
 		html += '<th style="width:auto">名称</th>'
 		html += '<th style="width:auto">大小</th>'
 		html += '<th style="width:auto">已用</th>'
@@ -92,6 +93,7 @@ function get_disks(){
 				var usedpercent = (usedsize/totalsize*100).toFixed(2) + " %";
 				var used = usedsize + " GB" + " (" + usedpercent + ")"
 				html += '<tr>'
+				html += '<td>' + usbDevicesList[i].usbPath + '</td>'
 				html += '<td>' + usbDevicesList[i].deviceName + '</td>'
 				html += '<td>' + totalsize + " GB" + '</td>'
 				html += '<td>' + used + '</td>'
@@ -279,6 +281,7 @@ function makeswap(action){
 			if (usbDevicesList[i].partition[j].mountPoint == $("#select_disk").val()){
 				dbus["swap_make_part_format"] = usbDevicesList[i].partition[j].format;
 				dbus["swap_make_part_status"] = usbDevicesList[i].partition[j].status;
+				dbus["swap_diskorder"] = usbDevicesList[i].usbPath;
 				//dbus["swap_make_part_partname"] = usbDevicesList[i].partition[j].partName;
 			}
 		}
@@ -292,7 +295,6 @@ function makeswap(action){
 		data: JSON.stringify(postData),
 		dataType: "json",
 		success: function(response) {
-			console.log(response.result);
 			get_log(action);
 		}
 	});
@@ -332,6 +334,7 @@ function reload_Soft_Center() {
 	<input type="hidden" name="action_script" value=""/>
 	<input type="hidden" name="action_wait" value=""/>
 	<input type="hidden" name="first_time" value=""/>
+	<input type="hidden" id="usb_td" value=""/>
 	<input type="hidden" name="preferred_lang" id="preferred_lang" value="<% nvram_get("preferred_lang"); %>"/>
 	<input type="hidden" name="SystemCmd" onkeydown="onSubmitCtrl(this, ' Refresh ')" value="swap_load.sh"/>
 	<input type="hidden" name="firmver" value="<% nvram_get("firmver"); %>"/>
@@ -402,7 +405,7 @@ function reload_Soft_Center() {
 												<td>
 													<select id="swap_size" name="swap_size" style="width:auto;" class="ssconfig input_option">
 														<option value="256144">256M</option>
-														<option value="524288">512M</option>
+														<option value="524288" selected>512M</option>
 														<option value="1048576">1G</option>
 													</select>
 												</td>
@@ -416,10 +419,9 @@ function reload_Soft_Center() {
 											</tr>
 										</table>
 										<div style="margin:10px 0 10px 5px;" class="splitLine"></div>
-										<div class="KoolshareBottom">
-											<br/>论坛技术支持： <a href="http://www.koolshare.cn" target="_blank"> <i><u>www.koolshare.cn</u></i> </a> <br/>
-											后台技术支持： <i>Xiaobao</i> <br/>
-											Shell, Web by： <i>Sadoneli</i><br/>
+										<div class="KoolshareBottom">论坛技术支持： <a href="http://www.koolshare.cn" target="_blank"> <i><u>koolshare.cn</u></i> </a>
+											<br/>Github项目： <a href="https://github.com/koolshare/rogsoft" target="_blank"> <i><u>github.com/koolshare</u></i> </a>
+											<br/>Shell & Web by： <a href="mailto:sadoneli@gmail.com"> <i>sadog</i> </a>, <i>Xiaobao</i>
 										</div>
 
 									</td>

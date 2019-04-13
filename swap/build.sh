@@ -1,11 +1,11 @@
 #!/bin/sh
 
 
-MODULE=swap
-VERSION=1.7
-TITLE=虚拟内存
-DESCRIPTION=""
-HOME_URL=Module_swap.asp
+MODULE="swap"
+VERSION="1.8"
+TITLE="虚拟内存"
+DESCRIPTION="让路由器运行更稳定~"
+HOME_URL="Module_swap.asp"
 
 # Check and include base
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"

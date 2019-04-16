@@ -24,13 +24,14 @@ softcenter_install() {
 		# coping files
 		cp -rf /tmp/softcenter/webs/* /koolshare/webs/
 		cp -rf /tmp/softcenter/res/* /koolshare/res/
-		if [ "`nvram get model`" == "GT-AC5300" ] || [ -n "`nvram get extendno | grep koolshare`" -a "`nvram get productid`" == "RT-AC86U" ];then
-			cp -rf /tmp/softcenter/GT-AC5300/webs/* /koolshare/webs/
-			cp -rf /tmp/softcenter/GT-AC5300/res/* /koolshare/res/
+		if [ "`nvram get model`" == "GT-AC5300" ] || [ "`nvram get model`" == "GT-AX11000" ] || [ -n "`nvram get extendno | grep koolshare`" -a "`nvram get productid`" == "RT-AC86U" ];then
+			cp -rf /tmp/softcenter/ROG/webs/* /koolshare/webs/
+			cp -rf /tmp/softcenter/ROG/res/* /koolshare/res/
 		fi
 		cp -rf /tmp/softcenter/init.d/* /koolshare/init.d/
 		cp -rf /tmp/softcenter/bin/* /koolshare/bin/
-		if [ "`nvram get model`" == "RT-AX88U" ];then
+		#for axhnd
+		if [ "`nvram get model`" == "RT-AX88U" ] || [ "`nvram get model`" == "GT-AX11000" ];then
 			cp -rf /tmp/softcenter/axbin/* /koolshare/bin/
 		fi
 		cp -rf /tmp/softcenter/perp /koolshare/
@@ -41,10 +42,10 @@ softcenter_install() {
 		[ ! -L "/koolshare/scripts/ks_app_remove.sh" ] && ln -sf /koolshare/scripts/ks_app_install.sh /koolshare/scripts/ks_app_remove.sh
 		[ ! -L "/jffs/.asusrouter" ] && ln -sf /koolshare/bin/kscore.sh /jffs/.asusrouter
 		[ -L "/koolshare/bin/base64" ] && rm -rf /koolshare/bin/base64
-		if [ "`nvram get model`" == "GT-AC5300" ] || [ -n "`nvram get extendno | grep koolshare`" -a "`nvram get productid`" == "RT-AC86U" ];then
+		if [ "`nvram get model`" == "GT-AC5300" ] || [ "`nvram get model`" == "GT-AX11000" ] || [ -n "`nvram get extendno | grep koolshare`" -a "`nvram get productid`" == "RT-AC86U" ];then
 			# for offcial mod, RT-AC86U, GT-AC5300
 			[ ! -L "/jffs/etc/profile" ] && ln -sf /koolshare/scripts/base.sh /jffs/etc/profile
-		else [ "`nvram get model`" == "RT-AX88U" ];then
+		else
 			# for Merlin mod, RT-AX88U, RT-AC86U
 			[ ! -L "/jffs/configs/profile.add" ] && ln -sf /koolshare/scripts/base.sh /jffs/configs/profile.add
 		fi
@@ -54,7 +55,6 @@ softcenter_install() {
 		chmod 755 /koolshare/perp/.boot/*
 		chmod 755 /koolshare/perp/.control/*
 		chmod 755 /koolshare/perp/httpdb/*
-		chmod 755 /koolshare/perp/skipd/*
 		chmod 755 /koolshare/scripts/*
 
 		# remove install package

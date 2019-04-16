@@ -1,6 +1,6 @@
 {
 "title":"<em>软件中心&nbsp;-&nbsp;by&nbsp;koolshare</em>",
-"content1":"1.4.2更新日志：新增GT-AX11000支持",
+"content1":"1.4.2更新日志：修复梅林改版固件的环境变量问题",
 "content2":"<font color='#1E90FF'>交流反馈:&nbsp;&nbsp;</font>\
 <a href='https://github.com/koolshare/rogsoft' target='_blank'><em>1.软件中心GitHub项目</em></a>&nbsp;&nbsp;&nbsp;&nbsp;\
 <a href='https://t.me/xbchat' target='_blank'><em>2.加入telegram群</em></a>&nbsp;&nbsp;&nbsp;&nbsp;\

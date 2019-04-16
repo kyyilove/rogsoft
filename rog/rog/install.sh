@@ -4,13 +4,13 @@ source $KSROOT/scripts/base.sh
 #eval `dbus export rog_`
 MODULE="rog"
 title="ROG工具箱"
-VERSION="1.0"
+VERSION="1.8"
 
 cd /
 cp -rf /tmp/$MODULE/scripts/* /koolshare/scripts/
 cp -rf /tmp/$MODULE/webs/* /koolshare/webs/
 if [ "`nvram get model`" == "GT-AC5300" ] || [ -n "`nvram get extendno | grep koolshare`" -a "`nvram get productid`" == "RT-AC86U" ];then
-	cp -rf /tmp/$MODULE/GT-AC5300/webs/* /koolshare/webs/
+	cp -rf /tmp/$MODULE/ROG/webs/* /koolshare/webs/
 fi
 cp -rf /tmp/$MODULE/res/* /koolshare/res/
 cp -rf /tmp/$MODULE/uninstall.sh /koolshare/scripts/uninstall_rog.sh

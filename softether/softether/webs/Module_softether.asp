@@ -107,15 +107,19 @@ function reload_Soft_Center() {
 								<tr>
 									<td bgcolor="#4D595D" colspan="3" valign="top">
 										<div>&nbsp;</div>
-										<div style="float:left;" class="formfonttitle">Softether VPN server</div>
-										<div style="float:right; width:15px; height:25px;margin-top:10px"><img id="return_btn" onclick="reload_Soft_Center();" align="right" style="cursor:pointer;position:absolute;margin-left:-30px;margin-top:-25px;" title="返回软件中心" src="/images/backprev.png" onMouseOver="this.src='/images/backprevclick.png'" onMouseOut="this.src='/images/backprev.png'"></img></div>
-										<div style="margin:30px 0 10px 5px;" class="splitLine"></div>
-										<div class="formfontdesc" id="cmdDesc">开启
-										<a href="https://www.softether.org/" target="_blank"> <i><u>SoftEther VPN</u></i></a>后，需要用
-										<a href="http://www.softether-download.com/cn.aspx?product=softether" target="_blank"> <i><u>SoftEther VPN Server Manager</u></i></a>进行进一步设置。
-										<a href="http://koolshare.cn/thread-67572-1-1.html" target="_blank"> <i><u>设置教程</u></i></a>
-										</div>										
-										<div class="formfontdesc" id="cmdDesc"></div>
+										<div class="formfonttitle">Softether VPN server</div>
+										<div style="float:right; width:15px; height:25px;margin-top:-20px">
+											<img id="return_btn" onclick="reload_Soft_Center();" align="right" style="cursor:pointer;position:absolute;margin-left:-30px;margin-top:-25px;" title="返回软件中心" src="/images/backprev.png" onMouseOver="this.src='/images/backprevclick.png'" onMouseOut="this.src='/images/backprev.png'"></img>
+										</div>
+										<div style="margin:10px 0 10px 5px;" class="splitLine"></div>
+										<div class="SimpleNote">
+											<li>
+												开启<a href="https://www.softether.org/" target="_blank"> <i><u>SoftEther VPN</u></i></a>后，需要用
+											<a href="http://www.softether-download.com/cn.aspx?product=softether" target="_blank"> <i><u>SoftEther VPN Server Manager</u></i></a>进行进一步设置。
+											<a href="http://koolshare.cn/thread-67572-1-1.html" target="_blank"> <i><u>设置教程</u></i></a>
+											</li>
+										</div>
+										<div class="formfontdesc"></div>
 										<table style="margin:10px 0px 0px 0px;" width="100%" border="1" align="center" cellpadding="4" cellspacing="0" bordercolor="#6b8fa3" class="FormTable">
 											<thead>
 											<tr>
@@ -138,10 +142,9 @@ function reload_Soft_Center() {
 													</div>
 												</td>
 											</tr>
-                                    	</table>                                    	
-
+										</table>
 										<div class="apply_gen">
-                                        	<span><input class="button_gen" id="cmdBtn" onclick="onSubmitCtrl();" type="button" value="提交"/></span>
+											<span><input class="button_gen" id="cmdBtn" onclick="onSubmitCtrl();" type="button" value="提交"/></span>
 										</div>
 										<div style="margin:10px 0 10px 5px;" class="splitLine"></div>
 										<div class="KoolshareBottom">

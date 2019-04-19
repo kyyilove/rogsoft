@@ -44,7 +44,8 @@
 	height:21px;
 	background:#C0D1D3 url(/res/proceding.gif);
 }
-.ddnsto_btn {
+
+.rog_btn {
 	border: 1px solid #222;
 	background: linear-gradient(to bottom, #003333  0%, #000000 100%); /* W3C */
 	font-size:10pt;
@@ -53,7 +54,7 @@
 	border-radius: 5px 5px 5px 5px;
 	width:14%;
 }
-.ddnsto_btn:hover {
+.rog_btn:hover {
 	border: 1px solid #222;
 	background: linear-gradient(to bottom, #27c9c9  0%, #279fd9 100%); /* W3C */
 	font-size:10pt;

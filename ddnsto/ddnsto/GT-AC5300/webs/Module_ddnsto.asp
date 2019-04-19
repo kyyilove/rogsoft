@@ -48,7 +48,6 @@
 .rog_btn {
 	border: 1px solid #222;
 	background: linear-gradient(to bottom, #91071f 0%, #700618 100%);
-	/* W3C */
 	font-size:10pt;
 	color: #fff;
 	padding: 5px 5px;
@@ -58,7 +57,6 @@
 .rog_btn:hover {
 	border: 1px solid #222;
 	background: linear-gradient(to bottom, #cf0a2c 0%, #91071f 100%);
-	/* W3C */
 	font-size:10pt;
 	color: #fff;
 	padding: 5px 5px;

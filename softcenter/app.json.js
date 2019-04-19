@@ -177,11 +177,11 @@
             "version": "1.2"
         }, 
         {
-            "build_date": "2018-12-04_21:25:50", 
+            "build_date": "2019-04-19_13:23:06", 
             "changelog": "", 
             "description": "ddnsto内网穿透", 
             "home_url": "Module_ddnsto.asp", 
-            "md5": "e0d855b57b8d602f68ec02e4bbe1267b", 
+            "md5": "574194280f58335438c426d31422df05", 
             "name": "ddnsto", 
             "tar_url": "ddnsto/ddnsto.tar.gz", 
             "title": "ddnsto", 

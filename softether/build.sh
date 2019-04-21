@@ -1,11 +1,11 @@
 #!/bin/sh
 
 
-MODULE=softether
-VERSION=1.6
+MODULE="softether"
+VERSION="1.7"
 TITLE="SoftEther_VPN_Server"
-DESCRIPTION="VPN全家桶, ver 4.25 build 9656"
-HOME_URL=Module_softether.asp
+DESCRIPTION="VPN全家桶, ver 4.29 build 9680"
+HOME_URL="Module_softether.asp"
 
 # Check and include base
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"

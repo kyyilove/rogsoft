@@ -34,11 +34,11 @@
             "version": "1.4"
         }, 
         {
-            "build_date": "2019-04-22_00:30:29", 
+            "build_date": "2019-04-22_00:33:27", 
             "changelog": "", 
             "description": "VPN全家桶, ver 4.29 build 9680", 
             "home_url": "Module_softether.asp", 
-            "md5": "09355ddfaf03c4cc359df7386ef44732", 
+            "md5": "8f29f997d14e6316902060da82146914", 
             "name": "softether", 
             "tar_url": "softether/softether.tar.gz", 
             "title": "SoftEther_VPN_Server", 

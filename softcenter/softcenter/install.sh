@@ -36,6 +36,7 @@ softcenter_install() {
 		fi
 		cp -rf /tmp/softcenter/perp /koolshare/
 		cp -rf /tmp/softcenter/scripts /koolshare/
+		cp -rf /tmp/softcenter/.soft_ver /koolshare/
 
 		# make some link
 		[ ! -L "/koolshare/bin/base64_decode" ] && ln -sf /koolshare/bin/base64_encode /koolshare/bin/base64_decode

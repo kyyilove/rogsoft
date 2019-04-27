@@ -56,15 +56,15 @@
             "version": "1.0"
         }, 
         {
-            "build_date": "2018-12-09_22:15:34", 
+            "build_date": "2019-04-27_22:47:50", 
             "changelog": "", 
-            "description": "EasyExplorer 跨设备文件同步+DLNA流媒体", 
+            "description": "易有云 （原EasyExplorer） 跨设备文件同步+DLNA流媒体", 
             "home_url": "Module_easyexplorer.asp", 
-            "md5": "64e325d7ff7be3ad9df006556ec78b3f", 
+            "md5": "f2030ead39fff38819e2294ae1f890cd", 
             "name": "easyexplorer", 
             "tar_url": "easyexplorer/easyexplorer.tar.gz", 
-            "title": "easyexplorer", 
-            "version": "1.5"
+            "title": "易有云", 
+            "version": "1.6"
         }, 
         {
             "build_date": "2018-12-04_21:42:00", 

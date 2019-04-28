@@ -1,9 +1,9 @@
 #!/bin/sh
 
 MODULE="easyexplorer"
-VERSION=1.6
+VERSION=1.7
 TITLE="易有云"
-DESCRIPTION="易有云 （原EasyExplorer） 跨设备文件同步+DLNA流媒体"
+DESCRIPTION="易有云 （EasyExplorer） 跨平台文件同步"
 HOME_URL="Module_easyexplorer.asp"
 
 # Check and include base

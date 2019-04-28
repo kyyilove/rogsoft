@@ -1,0 +1,4 @@
+Koolshare serverChan for hnd router Changelog
+===========================================
+1.8
+  - update       优化插件

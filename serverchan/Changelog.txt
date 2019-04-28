@@ -1,4 +1,4 @@
-Koolshare serverChan for hnd router Changelog
+Koolshare EasyExplorer for hnd router Changelog
 ===========================================
 0.1.16
   - fix       修复一些插件安装的问题

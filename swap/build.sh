@@ -2,7 +2,7 @@
 
 
 MODULE="swap"
-VERSION="1.8"
+VERSION="1.9"
 TITLE="虚拟内存"
 DESCRIPTION="让路由器运行更稳定~"
 HOME_URL="Module_swap.asp"

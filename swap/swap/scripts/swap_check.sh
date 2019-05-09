@@ -5,7 +5,6 @@ source $KSROOT/scripts/base.sh
 eval `dbus export swap_`
 mkdir -p /tmp/upload
 echo "" > /tmp/upload/swap_log.txt
-#http_response "$1"
 
 parts=`dbus list swap_check_partName|cut -d "=" -f2`
 

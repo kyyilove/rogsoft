@@ -199,15 +199,15 @@
             "version": "1.3"
         }, 
         {
-            "build_date": "2019-04-13_16:29:47", 
+            "build_date": "2019-05-09_23:27:07", 
             "changelog": "", 
             "description": "让路由器运行更稳定~", 
             "home_url": "Module_swap.asp", 
-            "md5": "d0427230fdd911ff0e180b0f18cd8b67", 
+            "md5": "1fc29ae4fb1636d20fbde4dae8964e30", 
             "name": "swap", 
             "tar_url": "swap/swap.tar.gz", 
             "title": "虚拟内存", 
-            "version": "1.8"
+            "version": "1.9"
         }
     ], 
     "home_url": "https://raw.githubusercontent.com/koolshare/koolshare.github.io/master", 

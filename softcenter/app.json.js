@@ -155,17 +155,6 @@
             "version": "2.6"
         }, 
         {
-            "build_date": "2018-12-04_21:46:24", 
-            "changelog": "", 
-            "description": "去广告，没烦恼", 
-            "home_url": "Module_koolproxy.asp", 
-            "md5": "83508a96b9d0b88e81af939fcb457baf", 
-            "name": "koolproxy", 
-            "tar_url": "koolproxy/koolproxy.tar.gz", 
-            "title": "koolproxy", 
-            "version": "3.8.4"
-        }, 
-        {
             "build_date": "2018-12-04_21:57:04", 
             "changelog": "", 
             "description": "ss-server", 
@@ -211,7 +200,7 @@
         }
     ], 
     "home_url": "https://raw.githubusercontent.com/koolshare/koolshare.github.io/master", 
-    "md5": "9164540a3fbd604b5ae2c75259813063", 
+    "md5": "44c311d753e9c7b113b538d0865814f0", 
     "tar_url": "softcenter/softcenter.tar.gz", 
     "version": "1.4.3"
 }

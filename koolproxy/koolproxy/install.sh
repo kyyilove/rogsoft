@@ -1,11 +1,11 @@
 #! /bin/sh
-source $KSROOT/scripts/base.sh
+source /koolshare/scripts/base.sh
 eval `dbus export koolproxy`
 mkdir -p /tmp/upload
 touch /tmp/upload/kp_log.txt
 
 # stop first
-[ "$koolproxy_enable" == "1" ] && sh /koolshare/koolproxy/kp_config.sh stop
+[ "$koolproxy_enable" == "1" ] && [ -f "/koolshare/koolproxy/kp_config.sh" ] && sh /koolshare/koolproxy/kp_config.sh stop
 
 # remove old files, do not remove user.txt incase of upgrade
 rm -rf /koolshare/bin/koolproxy >/dev/null 2>&1
@@ -34,7 +34,6 @@ cp -rf /tmp/koolproxy/webs/* /koolshare/webs/
 cp -rf /tmp/koolproxy/res/* /koolshare/res/
 if [ "`nvram get model`" == "GT-AC5300" ] || [ -n "`nvram get extendno | grep koolshare`" -a "`nvram get productid`" == "RT-AC86U" ];then
 	cp -rf /tmp/koolproxy/GT-AC5300/webs/* /koolshare/webs/
-	cp -rf /tmp/koolproxy/GT-AC5300/res/* /koolshare/res/
 fi
 if [ ! -f /koolshare/koolproxy/data/rules/user.txt ];then
 	cp -rf /tmp/koolproxy/koolproxy /koolshare/
@@ -65,5 +64,6 @@ dbus set softcenter_module_koolproxy_version=3.8.3.2
 dbus set koolproxy_version=3.8.3.2
 
 # restart
-[ "$koolproxy_enable" == "1" ] && sh /koolshare/koolproxy/kp_config.sh restart
+[ "$koolproxy_enable" == "1" ] && [ -f "/koolshare/koolproxy/kp_config.sh" ] && sh /koolshare/koolproxy/kp_config.sh restart
 
+exit 0

@@ -1,2 +1,2 @@
 # merlin-koolproxy
-a powerful ad remove software for merlin xiaobao firmware
+a powerful xx remove software for merlin xiaobao firmware

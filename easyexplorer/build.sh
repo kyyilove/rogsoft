@@ -1,7 +1,7 @@
 #!/bin/sh
 
 MODULE="easyexplorer"
-VERSION="1.9"
+VERSION="2.0"
 TITLE="易有云"
 DESCRIPTION="易有云 （EasyExplorer） 跨平台文件同步"
 HOME_URL="Module_easyexplorer.asp"
